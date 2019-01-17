@@ -59,7 +59,7 @@ class ListViewController: UITableViewController {
 */
         //3단계 : DispatchQueue.main.async()를 통한 비동기 방식으로 이미지를 읽어옴
         DispatchQueue.main.async(execute: {
-            NSLog("비동기 방식으로 실행되는 부분")
+            NSLog("비동기 방식으로 실행되는 부분입니당")
             cell.thumbnail.image = self.getThumbnailImage(indexPath.row)
         })
         
