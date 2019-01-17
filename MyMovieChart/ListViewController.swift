@@ -43,7 +43,7 @@ class ListViewController: UITableViewController {
         let row = self.list[indexPath.row]
 
         //로그 출력
-        NSLog("제목:\(row.title!), 호출된 행번호:\(indexPath.row)")
+        NSLog("제목:\(row.title!), 호출된 행번호 :\(indexPath.row)")
         //테이블 셀 객체를 직접 생성하는 대신 큐로부터 가져옴 -> MovieCell클래스로 변환
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell") as! MovieCell
         
